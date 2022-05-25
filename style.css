@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #302b63;
+  color: #808080;
+  font-family: "Lato", sans-serif;
+}
+main {
+}
+header {
+  padding: 30px;
+  background-color: #1e1f26;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+header:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+h1 {
+  width: 100%;
+  color: #03dac6;
+  font-size: 5vw;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1:hover {
+  color: #faebd7;
+}
+
+h2 {
+  font-size: 3vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+  color: #c0c0c0;
+}
+
+h2:hover {
+  color: #faebd7;
+}
+
+.card {
+  width: 77%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.img:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bio {
+  width: 50%;
+}
+
+.info {
+  width: 30%;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background-color: #000;
+  width: 100%;
+
+  text-align: center;
+}
+i:hover {
+  color: #faebd7;
+}
+
+body {
+  background: #e2e1e0;
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+a {
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  color: #989898;
+}
+
+a:hover {
+  color: #fff;
+}
