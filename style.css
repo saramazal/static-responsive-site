@@ -8,10 +8,9 @@ body {
   width: 100%;
   background-color: #302b63;
   color: #808080;
-  font-family: "Lato", sans-serif;
+  font-family: "Space Mono", monospace;
 }
-main {
-}
+
 header {
   padding: 30px;
   background-color: #1e1f26;
@@ -32,7 +31,7 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
-  font-family: "Josefin Sans", sans-serif;
+  font-family:"Space Mono", monospace;
 }
 
 h1:hover {
@@ -41,7 +40,7 @@ h1:hover {
 
 h2 {
   font-size: 3vw;
-  font-family: "Roboto", sans-serif;
+  font-family: "Space Mono", monospace;
   font-weight: 300;
   letter-spacing: 1.3px;
   color: #c0c0c0;
