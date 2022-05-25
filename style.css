@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -25,13 +29,13 @@ header:hover {
 h1 {
   width: 100%;
   color: #03dac6;
-  font-size: 5vw;
-  letter-spacing: 3px;
+  font-size: 2.72em;
+  letter-spacing: 5px;
   font-weight: 500;
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
-  font-family:"Space Mono", monospace;
+  font-family: "Space Mono", monospace;
 }
 
 h1:hover {
@@ -39,7 +43,7 @@ h1:hover {
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 1.3em;
   font-family: "Space Mono", monospace;
   font-weight: 300;
   letter-spacing: 1.3px;
@@ -50,10 +54,19 @@ h2:hover {
   color: #faebd7;
 }
 
-.card {
-  width: 77%;
+main {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
   margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  height: 300px;
+  margin: 1rem;
+  width: 300px;
 }
 
 .logo {
@@ -66,7 +79,7 @@ h2:hover {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.img {
+img {
   width: 200px;
   height: 200px;
   margin-right: 20px;
@@ -101,15 +114,6 @@ body {
   text-align: center;
 }
 
-.card {
-  background: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  height: 300px;
-  margin: 1rem;
-  position: relative;
-  width: 300px;
-}
 
 .card-1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
